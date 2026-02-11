@@ -88,3 +88,19 @@
 //         cout << x << " ";
 // }
 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {3, 8, 1, 6, 9};
+    int n = 5, target = 6;
+
+    for(int i = 0; i < n; i++) {
+        if(arr[i] == target) {
+            cout << "Found at index " << i;
+            return 0;
+        }
+    }
+
+    cout << "Not found";
+}
