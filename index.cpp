@@ -105,13 +105,13 @@
 //     cout << "Not found";
 // }
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int main() {
-    string s = "hello";
+// int main() {
+//     string s = "hello";
 
-    for(int i = s.length()-1; i >= 0; i--) {
-        cout << s[i];
-    }
-}
+//     for(int i = s.length()-1; i >= 0; i--) {
+//         cout << s[i];
+//     }
+// }
