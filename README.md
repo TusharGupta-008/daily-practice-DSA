@@ -1,1 +1,1 @@
-Some Basic question related to DSA
+Some Basic question related to DSA for the topic array and string
