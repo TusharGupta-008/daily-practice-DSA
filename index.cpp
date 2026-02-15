@@ -160,3 +160,21 @@
 
 //     cout << "Anagram";
 // }
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string s = "swiss";
+    int freq[26] = {0};
+
+    for(char c : s)
+        freq[c-'a']++;
+
+    for(char c : s) {
+        if(freq[c-'a'] == 1) {
+            cout << "First non-repeating: " << c;
+            break;
+        }
+    }
+}
