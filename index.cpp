@@ -133,3 +133,30 @@
 //     if(isPal) cout << "Palindrome";
 //     else cout << "Not Palindrome";
 // }
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string a = "listen";
+    string b = "silent";
+
+    if(a.length() != b.length()) {
+        cout << "Not Anagram";
+        return 0;
+    }
+
+    int freq[26] = {0};
+
+    for(char c : a) freq[c-'a']++;
+    for(char c : b) freq[c-'a']--;
+
+    for(int i = 0; i < 26; i++) {
+        if(freq[i] != 0) {
+            cout << "Not Anagram";
+            return 0;
+        }
+    }
+
+    cout << "Anagram";
+}
