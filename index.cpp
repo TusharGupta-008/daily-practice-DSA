@@ -196,16 +196,16 @@
 //     }
 // }
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int main() {
-    string s = "hello";
+// int main() {
+//     string s = "hello";
 
-    for(char &c : s) {
-        if(c >= 'a' && c <= 'z')
-            c = c - 32;
-    }
+//     for(char &c : s) {
+//         if(c >= 'a' && c <= 'z')
+//             c = c - 32;
+//     }
 
-    cout << s;
-}
+//     cout << s;
+// }
