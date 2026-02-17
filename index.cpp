@@ -227,3 +227,21 @@
 //     cout << "Vowels: " << vowels << endl;
 //     cout << "Consonants: " << consonants;
 // }
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string s = "madam";
+    bool isPal = true;
+
+    for(int i = 0; i < s.length()/2; i++) {
+        if(s[i] != s[s.length()-1-i]) {
+            isPal = false;
+            break;
+        }
+    }
+
+    if(isPal) cout << "Palindrome";
+    else cout << "Not Palindrome";
+}
