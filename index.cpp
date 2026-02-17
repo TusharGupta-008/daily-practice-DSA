@@ -245,3 +245,21 @@
 //     if(isPal) cout << "Palindrome";
 //     else cout << "Not Palindrome";
 // }
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string s = "education";
+    int vowels = 0, consonants = 0;
+
+    for(char c : s) {
+        if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
+            vowels++;
+        else
+            consonants++;
+    }
+
+    cout << "Vowels: " << vowels << endl;
+    cout << "Consonants: " << consonants;
+}
