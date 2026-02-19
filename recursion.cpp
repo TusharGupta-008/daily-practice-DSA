@@ -39,3 +39,17 @@
 // int main() {
 //     printN(5);
 // }
+
+#include <iostream>
+using namespace std;
+
+void printRev(int n) {
+    if(n == 0) return;
+
+    cout << n << " ";
+    printRev(n-1);
+}
+
+int main() {
+    printRev(5);
+}
