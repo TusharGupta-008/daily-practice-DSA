@@ -97,3 +97,18 @@
 //     string s = "madam";
 //     cout << isPal(s, 0, s.length()-1);
 // }
+
+#include <iostream>
+using namespace std;
+
+void rev(string s, int i) {
+    if(i < 0) return;
+
+    cout << s[i];
+    rev(s, i-1);
+}
+
+int main() {
+    string s = "hello";
+    rev(s, s.length()-1);
+}
