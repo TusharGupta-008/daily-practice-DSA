@@ -129,15 +129,15 @@
 //     cout << isPal(s, 0, s.length()-1);
 // }
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int power(int a, int b) {
-    if(b == 0) return 1;
+// int power(int a, int b) {
+//     if(b == 0) return 1;
 
-    return a * power(a, b-1);
-}
+//     return a * power(a, b-1);
+// }
 
-int main() {
-    cout << power(2, 5);
-}
+// int main() {
+//     cout << power(2, 5);
+// }
