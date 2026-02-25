@@ -182,17 +182,17 @@
 //     cout << binSearch(arr, 0, 4, 7);
 // }
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int sumArray(int arr[], int n) {
-    if(n == 0)
-        return 0;
+// int sumArray(int arr[], int n) {
+//     if(n == 0)
+//         return 0;
 
-    return arr[n-1] + sumArray(arr, n-1);
-}
+//     return arr[n-1] + sumArray(arr, n-1);
+// }
 
-int main() {
-    int arr[] = {1,2,3,4,5};
-    cout << sumArray(arr,5);
-}
+// int main() {
+//     int arr[] = {1,2,3,4,5};
+//     cout << sumArray(arr,5);
+// }
