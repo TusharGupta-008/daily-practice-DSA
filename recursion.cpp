@@ -214,41 +214,41 @@
 //     printEven(10);
 // }
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-void replaceChar(string s, int i) {
-    if(i == s.length())
-        return;
+// void replaceChar(string s, int i) {
+//     if(i == s.length())
+//         return;
 
-    if(s[i] == 'a')
-        cout << 'x';
-    else
-        cout << s[i];
+//     if(s[i] == 'a')
+//         cout << 'x';
+//     else
+//         cout << s[i];
 
-    replaceChar(s, i+1);
-}
+//     replaceChar(s, i+1);
+// }
 
-int main() {
-    string s = "banana";
-    replaceChar(s,0);
-}
+// int main() {
+//     string s = "banana";
+//     replaceChar(s,0);
+// }
 
 
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int countZero(int n) {
-    if(n == 0)
-        return 1;
+// int countZero(int n) {
+//     if(n == 0)
+//         return 1;
 
-    if(n % 10 == 0)
-        return 1 + countZero(n/10);
-    else
-        return countZero(n/10);
-}
+//     if(n % 10 == 0)
+//         return 1 + countZero(n/10);
+//     else
+//         return countZero(n/10);
+// }
 
-int main() {
-    cout << countZero(102030);
-}
+// int main() {
+//     cout << countZero(102030);
+// }
