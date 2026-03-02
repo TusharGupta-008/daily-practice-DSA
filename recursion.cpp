@@ -233,3 +233,22 @@ int main() {
     string s = "banana";
     replaceChar(s,0);
 }
+
+
+
+#include <iostream>
+using namespace std;
+
+int countZero(int n) {
+    if(n == 0)
+        return 1;
+
+    if(n % 10 == 0)
+        return 1 + countZero(n/10);
+    else
+        return countZero(n/10);
+}
+
+int main() {
+    cout << countZero(102030);
+}
