@@ -14,7 +14,5 @@ int main()
   // int n[5]={1,2,3,4,5};
   // cout<<n[4];
 
-  string str = "Hello";
-
-  cout << str;
+ 
 }
