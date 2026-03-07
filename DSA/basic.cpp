@@ -2,17 +2,17 @@
 #include <vector>
 using namespace std;
 
-void replaceChar(string s, int i) {
-    if(i == s.length())
-        return;
+// void replaceChar(string s, int i) {
+//     if(i == s.length())
+//         return;
 
-    if(s[i] == 'a')
-        cout << 'x';
-    else
-        cout << s[i];
+//     if(s[i] == 'a')
+//         cout << 'x';
+//     else
+//         cout << s[i];
 
-    replaceChar(s, i+1);
-}
+//     replaceChar(s, i+1);
+// }
 
 int main()
 {
@@ -70,8 +70,8 @@ int main()
 // };
 //
 
-string s = "banana";
-    replaceChar(s,0);
+// string s = "banana";
+//     replaceChar(s,0);
 
 
 }
