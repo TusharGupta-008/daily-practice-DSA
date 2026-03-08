@@ -90,17 +90,17 @@ int main()
 //     cout << gcd(12,18);
 // }
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-void printDigits(int n) {
-    if(n == 0)
-        return;
+// void printDigits(int n) {
+//     if(n == 0)
+//         return;
 
-    printDigits(n/10);
-    cout << n%10 << " ";
-}
+//     printDigits(n/10);
+//     cout << n%10 << " ";
+// }
 
-int main() {
-    printDigits(5678);
-}
+// int main() {
+//     printDigits(5678);
+// }
