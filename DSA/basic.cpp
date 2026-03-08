@@ -76,16 +76,16 @@ int main()
 
 }
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int gcd(int a, int b) {
-    if(b == 0)
-        return a;
+// int gcd(int a, int b) {
+//     if(b == 0)
+//         return a;
 
-    return gcd(b, a % b);
-}
+//     return gcd(b, a % b);
+// }
 
-int main() {
-    cout << gcd(12,18);
-}
+// int main() {
+//     cout << gcd(12,18);
+// }
