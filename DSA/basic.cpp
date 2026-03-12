@@ -105,18 +105,18 @@ int main()
 //     printDigits(5678);
 // }
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-void table(int n, int i) {
-    if(i > 10)
-        return;
+// void table(int n, int i) {
+//     if(i > 10)
+//         return;
 
-    cout << n << " x " << i << " = " << n*i << endl;
+//     cout << n << " x " << i << " = " << n*i << endl;
 
-    table(n, i+1);
-}
+//     table(n, i+1);
+// }
 
-int main() {
-    table(5,1);
-}
+// int main() {
+//     table(5,1);
+// }
