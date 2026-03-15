@@ -120,3 +120,24 @@ int main()
 // int main() {
 //     table(5,1);
 // }
+
+
+#include <iostream>
+using namespace std;
+
+int minArray(int arr[], int n) {
+    if(n == 1)
+        return arr[0];
+
+    int minVal = minArray(arr, n-1);
+
+    if(arr[n-1] < minVal)
+        return arr[n-1];
+    else
+        return minVal;
+}
+
+int main() {
+    int arr[] = {8,3,6,2,9};
+    cout << minArray(arr,5);
+}
